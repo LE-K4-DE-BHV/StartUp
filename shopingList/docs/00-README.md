@@ -70,12 +70,12 @@
 1. **Repository aufsetzen**
    ```bash
    git clone <your-repo>
-   cd Geteilte-Einkaufsliste
+   cd shopingList
    ```
 
 2. **Ordner-Struktur erstellen**
    ```
-   Geteilte-Einkaufsliste/
+   shopingList/
    ├── docs/           (Dokumentation - bereits erstellt!)
    ├── src/
    │   ├── main/java/  (Java Backend)

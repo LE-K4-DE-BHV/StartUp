@@ -109,7 +109,7 @@ Alle 6 Personen arbeiten **cross-funktional**, haben aber Schwerpunkte:
 ### **WOCHE 1: Setup & Grundlagen**
 
 #### Mo-Di: Projekt-Kickoff & Environments
-- [ ] Git-Repository aufsetzen
+- [X ] Git-Repository aufsetzen
 - [ ] Projekt-Struktur erstellen
 - [ ] Java-Project initialisieren
 - [ ] PostgreSQL lokale Instanz aufsetzen
