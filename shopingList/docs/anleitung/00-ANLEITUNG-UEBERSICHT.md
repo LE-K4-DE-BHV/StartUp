@@ -43,62 +43,67 @@ Nachmittags (16:00-17:00):
 
 ## 🗂️ Anleitungs-Struktur
 
-### **WOCHE 1: Setup & Grundlagen**
+### **WOCHE 1: Setup & Grundlagen** ✅ FERTIG
+
+[Woche 1 Übersicht](./woche-1/README.md)
 
 | Datei | Thema | Dauer | Wer |
 |-------|-------|-------|-----|
-| [01-projekt-setup.md](./woche-1/01-projekt-setup.md) | Git, Folder-Struktur, IDE | 1h | Alle |
-| [02-git-workflow.md](./woche-1/02-git-workflow.md) | Branching, Commits, PRs | 1h | Alle |
-| [03-postgresql-setup.md](./woche-1/03-postgresql-setup.md) | DB Installation & Konfiguration | 1.5h | Person 5 + Team |
-| [04-java-http-server.md](./woche-1/04-java-http-server.md) | Erster HTTP-Server in Java | 2h | Person 3 + Person 4 |
-| [05-datenbank-implementieren.md](./woche-1/05-datenbank-implementieren.md) | SQL Schema ausführen & testen | 1.5h | Person 5 |
+| [01-projekt-setup.md](./woche-1/01-projekt-setup.md) | Git, Ordner-Struktur, Workflow | 1h | Alle |
+| [03-postgresql-setup.md](./woche-1/03-postgresql-setup.md) | PostgreSQL Installation & DB Setup | 1.5h | Person 5 + Team |
+| [04-java-http-server.md](./woche-1/04-java-http-server.md) | Erster HTTP-Server in Java | 2.5h | Person 3 + Person 4 |
+| [05-datenbank-implementieren.md](./woche-1/05-datenbank-implementieren.md) | SQL Schema & Test-Daten | 2h | Person 5 |
 
-**Meilenstein:** HTTP-Server läuft, Datenbank läuft, Team kann Code pushen ✅
+🎯 **Meilenstein:** HTTP-Server läuft, Datenbank läuft, Team kann pushen ✅
+
+### **WOCHE 2: Authentifizierung & Grundfeatures** 🔄 IN PLANUNG
+
+[Woche 2 Übersicht](./woche-2/README.md)
+
+| Datei | Thema | Dauer | Wer |
+|-------|-------|-------|-----|
+| 01-login-backend.md | REST API: Login implementieren | 2h | Person 3 + 4 |
+| 02-registrierung-backend.md | REST API: Registrierung | 1.5h | Person 4 |
+| 03-login-frontend.md | HTML/JS: Login-Seite | 1.5h | Person 1 + 2 |
+| 04-profil-system.md | Backend + Frontend: Profile | 2h | Person 1 + 3 + 5 |
+| 05-gruppen-management.md | Groups CRUD + UI | 2h | Person 2 + 4 |
+| 06-einkaufsliste-basis.md | Items hinzufügen/löschen | 2h | Person 1 + 4 |
+
+🎯 **Meilenstein:** Login funktioniert, Gruppen & Items sichtbar
 
 ---
 
-### **WOCHE 2: Authentifizierung & Grundfeatures**
+### **WOCHE 3: Echtzeit & Komplexe Features** 🔄 IN PLANUNG
+
+[Woche 3 Übersicht](./woche-3/README.md)
 
 | Datei | Thema | Dauer | Wer |
 |-------|-------|-------|-----|
-| [01-login-backend.md](./woche-2/01-login-backend.md) | REST API: Login implementieren | 2h | Person 3 + 4 |
-| [02-registrierung-backend.md](./woche-2/02-registrierung-backend.md) | REST API: Registrierung | 1.5h | Person 4 |
-| [03-login-frontend.md](./woche-2/03-login-frontend.md) | HTML/JS: Login-Seite | 1.5h | Person 1 + 2 |
-| [04-profil-system.md](./woche-2/04-profil-system.md) | Backend + Frontend: Profile | 2h | Person 1 + 3 + 5 |
-| [05-gruppen-management.md](./woche-2/05-gruppen-management.md) | Groups CRUD + UI | 2h | Person 2 + 4 |
-| [06-einkaufsliste-basis.md](./woche-2/06-einkaufsliste-basis.md) | Items hinzufügen/löschen | 2h | Person 1 + 4 |
+| 01-websocket-server.md | WebSocket in Java aufsetzen | 2h | Person 3 |
+| 02-websocket-client.md | WebSocket Client im Browser | 1.5h | Person 2 |
+| 03-echtzeit-synchronisation.md | Real-Time Updates verbinden | 2h | Person 1 + 3 + 2 |
+| 04-ausgabenverteilung.md | Expense Tracking & Splitting | 3h | Person 4 + 5 |
+| 05-chat-system.md | Gruppenchat implementieren | 1.5h | Person 2 + 4 |
+| 06-budget-feature.md | Budget-Tracking | 1.5h | Person 4 |
 
-**Meilenstein:** Login funktioniert, User sehen ihre Gruppen & Items ✅
+🎯 **Meilenstein:** Echtzeit funktioniert, Ausgaben verteilt, Chat läuft
 
 ---
 
-### **WOCHE 3: Echtzeit & Komplexe Features**
+### **WOCHE 4: Testing, Optimierung & Rollout** 🔄 IN PLANUNG
+
+[Woche 4 Übersicht](./woche-4/README.md)
 
 | Datei | Thema | Dauer | Wer |
 |-------|-------|-------|-----|
-| [01-websocket-server.md](./woche-3/01-websocket-server.md) | WebSocket in Java aufsetzen | 2h | Person 3 |
-| [02-websocket-client.md](./woche-3/02-websocket-client.md) | WebSocket Client im Browser | 1.5h | Person 2 |
-| [03-echtzeit-synchronisation.md](./woche-3/03-echtzeit-synchronisation.md) | Real-Time Updates verbinden | 2h | Person 1 + 3 + 2 |
-| [04-ausgabenverteilung.md](./woche-3/04-ausgabenverteilung.md) | Expense Tracking & Splitting | 3h | Person 4 + 5 |
-| [05-chat-system.md](./woche-3/05-chat-system.md) | Gruppenchat implementieren | 1.5h | Person 2 + 4 |
-| [06-budget-feature.md](./woche-3/06-budget-feature.md) | Budget-Tracking | 1.5h | Person 4 |
+| 01-unit-tests.md | Java Unit-Tests schreiben | 2h | Person 4 + 6 |
+| 02-integration-tests.md | Frontend ↔ Backend Tests | 1.5h | Person 2 + 6 |
+| 03-manual-testing.md | Szenarios durchspielen | 1.5h | Person 6 + Team |
+| 04-bug-fixes.md | Bugs beheben & optimieren | 2h | Alle |
+| 05-sicherheit.md | SQL-Injection, XSS checken | 1.5h | Person 3 + 5 |
+| 06-deployment.md | App produktionsbereit | 1h | Person 6 + 3 |
 
-**Meilenstein:** Echtzeit-Updates funktionieren, Ausgaben werden verteilt ✅
-
----
-
-### **WOCHE 4: Testing, Optimierung & Rollout**
-
-| Datei | Thema | Dauer | Wer |
-|-------|-------|-------|-----|
-| [01-unit-tests.md](./woche-4/01-unit-tests.md) | Java Unit-Tests schreiben | 2h | Person 4 + 6 |
-| [02-integration-tests.md](./woche-4/02-integration-tests.md) | Frontend ↔ Backend Tests | 1.5h | Person 2 + 6 |
-| [03-manual-testing.md](./woche-4/03-manual-testing.md) | Szenarios durchspielen | 1.5h | Person 6 + Team |
-| [04-bug-fixes.md](./woche-4/04-bug-fixes.md) | Bugs beheben & optimieren | 2h | Alle |
-| [05-sicherheit.md](./woche-4/05-sicherheit.md) | SQL-Injection, XSS, CSRF checken | 1.5h | Person 3 + 5 |
-| [06-deployment.md](./woche-4/06-deployment.md) | App produktionsbereit machen | 1h | Person 6 + 3 |
-
-**Meilenstein:** MVP ist produktionsreif, sicher, getestet ✅
+🎯 **Meilenstein:** MVP ist produktionsreif, sicher, getestet
 
 ---
 
