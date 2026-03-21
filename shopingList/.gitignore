@@ -1,0 +1,36 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.war
+target/
+out/
+*.log
+
+# Database
+*.db
+*.sqlite
+local_db/
+database_backup/
+
+# Secrets & Environment
+.env
+.env.local
+application-local.properties
+secrets/
+
+# Node/Frontend (wenn nötig)
+node_modules/
+dist/
+build/
+
+# OS
+Thumbs.db
+.DS_Store
