@@ -102,6 +102,14 @@ psql --host 192.168.x.x --username postgres --password --dbname template1
 
 ---
 
+---
+
+# 🔀 GIT WORKFLOW ANLEITUNG
+
+---
+
+---
+
 ## Git Workflow: Branch erstellen, arbeiten, pushen und Pull Request
 
 Diese Anleitung zeigt dir den kompletten Workflow für die Zusammenarbeit in Git: Wie du einen Branch erstellst, darin arbeitest, die Änderungen pushst und schließlich einen Pull Request erstellst.
