@@ -241,7 +241,7 @@ git add .
 git commit -m "Setup: Projekt-Ordnung und Struktur"
 
 # Zu GitHub pushen (falls remote schon konfiguriert)
-git push origin main
+git push origin feature/mein-branch
 ```
 
 **Was könnte schiefgehen?**
@@ -295,11 +295,11 @@ git push origin main
 
 ## ✅ Checkliste - Fertig für heute?
 
-- [ ] Repository geklont / Git läuft
-- [ ] Alle Ordner existieren (`src/`, `public/`, `db/`, `docs/`, `anleitung/`)
-- [ ] .gitignore erstellt
-- [ ] application.properties existiert
-- [ ] Erstes Commit gepusht
+- [X] Repository geklont / Git läuft
+- [X] Alle Ordner existieren (`src/`, `public/`, `db/`, `docs/`, `anleitung/`)
+- [X] .gitignore erstellt
+- [X] application.properties existiert
+- [X] Erstes Commit gepusht
 - [ ] Jeder kann `git status` ausführen ohne Fehler
 - [ ] Jeder versteht Feature-Branches
 
